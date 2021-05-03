@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#SBATCH --job-name=Alligator_1995_2014
+#SBATCH --output=Alligator_1995_2014.out
+#SBATCH --partition=scavenger
+#SBATCH --ntasks=1
+#SBATCH --mail-user=yu.zhang4@duke.edu
+#SBATCH --time=72:00:00
+
+./pihm
